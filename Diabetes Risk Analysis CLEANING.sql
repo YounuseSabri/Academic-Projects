@@ -6,11 +6,11 @@
 with cleaned_data as (
     Select
         Pregnancies,
-        Nullif(Glucose, 0) as Glucose,
-        Nullif(BloodPressure, 0) as BloodPressure,
-        Nullif(SkinThickness, 0) as SkinThickness,
-        Nullif(Insulin, 0) as Insulin,
-        Nullif(BMI, 0) as BMI,
+        NULLIF(Glucose, 0) as Glucose,
+        NULLIF(BloodPressure, 0) as BloodPressure,
+        NULLIF(SkinThickness, 0) as SkinThickness,
+        NULLIF(Insulin, 0) as Insulin,
+        NULLIF(BMI, 0) as BMI,
         DiabetesPedigreeFunction,
         Age,
         Outcome,
