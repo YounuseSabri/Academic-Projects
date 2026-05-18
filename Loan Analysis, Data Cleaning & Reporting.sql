@@ -1,6 +1,7 @@
 /*===============================================================================
  Project: Loan Data Cleaning & Reporting
  Dataset Table: universalbank_csv
+ Dataset Link: https://www.kaggle.com/sriharipramod/bank-loan-classification
 
  Purpose:
  This SQL project identifies customer banking behavior to identify high-value
