@@ -1,6 +1,7 @@
--- Diabetes Risk Analysis CLEANING
--- Goal: Clean health data and identify patterns linked to diabetes outcomes
-
+/*=============================================================================
+Diabetes Risk Analysis CLEANING
+Goal: Clean health data and identify patterns linked to diabetes outcomes
+=============================================================================*/
 
 
 with cleaned_data AS (
@@ -16,10 +17,10 @@ with cleaned_data AS (
         Outcome,
 
   
-  
- -- Selecting Data that we are using and cleaning, Glucose, BloodPressure, SkinThickness, Insulin and BMI can not logically equal 0
- -- Cleaning data where the improbable "0" will be entered as missing replaced with "NULL"
-  
+ /*=============================================================================================================================
+ Selecting Data that we are using and cleaning, Glucose, BloodPressure, SkinThickness, Insulin and BMI can not logically equal 0
+ Cleaning data where the improbable "0" will be entered as missing replaced with "NULL"
+  ===========================================================================================================================*/
   
   
         Case
@@ -30,9 +31,9 @@ with cleaned_data AS (
         End as Age_Group,
   
   
-  
--- Creating a age group through feature engineering in order to distinguish through categories
-  
+/*==========================================================================================  
+ Creating a age group through feature engineering in order to distinguish through categories
+==========================================================================================*/  
   
   
         Case
@@ -43,9 +44,9 @@ with cleaned_data AS (
         End as BMI_Category,
   
   
-  
--- Createing a BMI Category where we can have a categorical variable through classes
-
+ /*=============================================================================== 
+ Createing a BMI Category where we can have a categorical variable through classes
+===============================================================================*/
   
   
         Case
@@ -57,9 +58,9 @@ with cleaned_data AS (
 )
 
 
-
--- Created different Categorical Variables, Glucose was created as the third, this will help the model
-
+/*===================================================================================================
+ Created different Categorical Variables, Glucose was created as the third, this will help the model
+===================================================================================================*/
 
 
 Select
@@ -70,10 +71,10 @@ Select
     Sum(Case When Outcome = 1 Then 1 Else 0 End) as Diabetes_Cases,
     
     
-    
--- Grouping together our final results and visualizing how many diabetic patients we have for the groups we created
--- Creating new column
-
+/*===================================================================================================================     
+ Grouping together our final results and visualizing how many diabetic patients we have for the groups we created
+ Creating new column
+===================================================================================================================*/
     
     
     Round(
@@ -82,10 +83,10 @@ Select
     ) as Diabetes_Rate_Percent,
     
     
-    
--- Rounding to the second decimal place, checking diabete cases vs our dataset
--- Creating new column
-    
+/*=============================================================================    
+ Rounding to the second decimal place, checking diabete cases vs our dataset
+ Creating new column
+=============================================================================*/    
     
     
     Round(Avg(Glucose), 2) as Avg_Glucose,
@@ -94,9 +95,9 @@ Select
 From cleaned_data
 
 
-
--- Finding average of Glucose, BMI and BloodPressure
-
+/*==================================================
+ Finding average of Glucose, BMI and BloodPressure
+===================================================*/
 
 
 Group By
@@ -106,6 +107,7 @@ Group By
 Order BY
     Diabetes_Rate_Percent DESC;
     
-
--- Finally finishing the project by grouping the three categories and analyzing the different groups
--- Sort through an order sequence of percentage rate of Diabetes
+/*==================================================================================================
+ Finally finishing the project by grouping the three categories and analyzing the different groups
+ Sort through an order sequence of percentage rate of Diabetes
+===================================================================================================*/
