@@ -50,18 +50,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-##  3) Diabetes Cleaning (SQL)
-
-**Goal:** Clean health data and build grouped risk profiles linked to diabetes outcomes.
-
-### Highlights
-- Replaced implausible 0 values in key clinical variables with `NULL`.
-- Engineered age, BMI, and glucose categorical bands.
-- Produced grouped diabetes prevalence and average biomarker summaries.
-
----
-
-##  4) Diabetes Exploration Analysis (ML)
+##  3) Diabetes Exploration Analysis (ML)
 
 **Goal:** Explore and model diabetes outcome prediction from clinical data.
 
@@ -72,7 +61,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-##  5) Wine Quality Prediction (ML)
+##  4) Wine Quality Prediction (ML)
 
 **Goal:** Predict wine quality class based on physicochemical features.
 
