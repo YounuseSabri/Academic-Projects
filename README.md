@@ -12,7 +12,6 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 | **Loan Data Cleaning & Reporting (SQL)** | Banking analytics, segmentation, cross-sell strategy | SQL | KPI dashboard queries, customer segmentation, conversion analysis, executive summary |
 | **Loan Classification Analysis** | Predicting personal loan acceptance | Python, scikit-learn, ANN | Model comparison, classification metrics, ROC AUC evaluation |
 | **Diabetes Exploration Analysis** | Healthcare classification modeling | Python, scikit-learn | EDA, missing-value treatment, logistic regression evaluation |
-| **Wine Quality Prediction** | Product quality classification | Python, scikit-learn | EDA, model building, classification performance analysis |
 
 ---
 
@@ -58,17 +57,6 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 - Conducted target distribution review and feature correlation analysis.
 - Addressed data quality concerns before modeling.
 - Trained and evaluated classification models (including logistic regression).
-
----
-
-##  4) Wine Quality Prediction (ML)
-
-**Goal:** Predict wine quality class based on physicochemical features.
-
-### Highlights
-- Performed data quality checks and exploratory analysis.
-- Built and evaluated classification models.
-- Interpreted performance metrics to compare predictive approaches.
 
 ---
 
