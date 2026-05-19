@@ -9,7 +9,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 | Project | Focus Area | Tools | Key Deliverables |
 |---|---|---|---|
-| **Loan Data Cleaning & Reporting** | Banking analytics, segmentation, cross-sell strategy | SQL | KPI dashboard queries, customer segmentation, conversion analysis, executive summary |
+| **Loan Data Cleaning & Reporting (SQL)** | Banking analytics, segmentation, cross-sell strategy | SQL | KPI dashboard queries, customer segmentation, conversion analysis, executive summary |
 | **Loan Classification Analysis** | Predicting personal loan acceptance | Python, scikit-learn, ANN | Model comparison, classification metrics, ROC AUC evaluation |
 | **Diabetes Cleaning (SQL)** | Data cleaning + categorical risk grouping | SQL | Handling implausible values, age/BMI/glucose feature engineering, diabetes rate analysis |
 | **Diabetes Exploration Analysis** | Healthcare classification modeling | Python, scikit-learn | EDA, missing-value treatment, logistic regression evaluation |
