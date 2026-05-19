@@ -17,7 +17,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-## 🏦 1) Loan Data Cleaning & Reporting (SQL)
+##  1) Loan Data Cleaning & Reporting (SQL)
 
 **Goal:** Analyze universal bank customer behavior to identify high-value segments, personal loan trends, and cross-sell opportunities.
 
@@ -30,7 +30,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-## 🤖 2) Loan Classification Analysis (ML)
+##  2) Loan Classification Analysis (ML)
 
 **Goal:** Predict whether customers will accept a personal loan offer and compare model effectiveness.
 
@@ -51,7 +51,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-## 🩺 3) Diabetes Cleaning (SQL)
+##  3) Diabetes Cleaning (SQL)
 
 **Goal:** Clean health data and build grouped risk profiles linked to diabetes outcomes.
 
@@ -62,7 +62,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-## 🧪 4) Diabetes Exploration Analysis (ML)
+##  4) Diabetes Exploration Analysis (ML)
 
 **Goal:** Explore and model diabetes outcome prediction from clinical data.
 
@@ -73,7 +73,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-## 🍷 5) Wine Quality Prediction (ML)
+##  5) Wine Quality Prediction (ML)
 
 **Goal:** Predict wine quality class based on physicochemical features.
 
@@ -84,7 +84,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-## 🛠️ Skills Demonstrated
+##  Skills Demonstrated
 
 - **SQL Analytics:** Data cleaning, segmentation, ranking, KPI reporting
 - **Machine Learning:** Classification, feature preparation, model comparison
@@ -93,7 +93,7 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-## 🚀 Next Improvements (In Progress)
+##  Next Improvements (In Progress)
 
 - Add Power BI/Tableau dashboards for SQL projects
 - Add confusion matrix + ROC curve images to each ML project
@@ -102,10 +102,10 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 ---
 
-## 👤 Author
+##  Author
 
-**Your Name**  
+**Younuse Sabri**  
 Business Analytics Major  
-- LinkedIn: [Add your LinkedIn URL]
-- GitHub: [Add your GitHub URL]
-- Email: [Add your email]
+- LinkedIn: [Linkedin.com/in/younuse-sabri/]
+- GitHub: [Github.com/YounuseSabri/]
+- Email: [Younuse.Sabri@outlook.com]
