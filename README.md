@@ -97,6 +97,6 @@ This portfolio showcases projects in customer analytics, healthcare risk analysi
 
 **Younuse Sabri**  
 Business Analytics Major  
-- LinkedIn: [Linkedin.com/in/younuse-sabri/]
-- GitHub: [Github.com/YounuseSabri/]
+- LinkedIn: [https://Linkedin.com/in/Younuse-Sabri/]
+- GitHub: [https://Github.com/YounuseSabri/)]
 - Email: [Younuse.Sabri@outlook.com]
